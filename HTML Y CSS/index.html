@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Sebastian G">
+    <meta name="description" content="Hoja de vida de Sebastian G, estudiante de Tecnología en Desarrollo de Software">
+    <title>Hoja de vida</title>
+    <link rel="icon" href="image.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sebastian G",
+      "url": "https://github.com/SBNGL",
+      "image": "perfil.png",
+      "jobTitle": "Estudiante de Tecnología en Desarrollo de Software",
+      "description": "Estudiante apasionado de Desarrollo de Software, enfocado en crear experiencias web limpias y eficientes.",
+      "sameAs": [
+        "https://github.com/SBNGL",
+        "https://linkedin.com/"
+      ],
+      "knowsAbout": ["HTML", "CSS", "JavaScript", "SQL", "Java", "Python", "Git", "GitHub"],
+      "email": "mailto:gomezlermasebastian8@gmail.com"
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="scroll-progress"></div>
+
+    <header>
+        <nav class="navbar">
+            <span class="nav-brand">SG</span>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="perfil.png" alt="Foto de perfil de Sebastian" class="perfil">
+        <section class="hero-text">
+            <h1 class="titulo">Hola, soy <span class="nombre" id="typing-text"></span></h1>
+            <p class="primer-parrafo">
+                Soy estudiante de Tecnología en Desarrollo de Software y apasionado por crear soluciones tecnológicas
+                funcionales y bien diseñadas.
+            </p>
+        </section>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi" data-animacion>
+        <h2>Sobre mí</h2>
+        <p class="sobre-mi-parrafo">
+            Soy un estudiante de Desarrollo de Software
+            con conocimientos intermedios en varias tecnologías fundamentales
+            para la programación y el desarrollo web. Manejo HTML y CSS a nivel intermedio,
+            lo que me permite diseñar y estructurar interfaces web funcionales, organizadas y visualmente
+            agradables.
+            En programación, tengo un nivel intermedio en Java, Python y SQL,
+            lenguajes con los que he desarrollado ejercicios prácticos, lógica de programación, estructuras de datos
+            básicas y manejo de bases de datos.
+        </p>
+    </section>
+
+    <section id="habilidades" class="habilidades" data-animacion>
+        <h2>Habilidades</h2>
+        <ul class="habilidades-lista">
+            <li class="skill-tag">HTML</li>
+            <li class="skill-tag">CSS</li>
+            <li class="skill-tag">JavaScript</li>
+            <li class="skill-tag">SQL</li>
+            <li class="skill-tag">Java</li>
+            <li class="skill-tag">Python</li>
+            <li class="skill-tag">Git</li>
+            <li class="skill-tag">GitHub</li>
+        </ul>
+    </section>
+
+    <section id="proyectos" class="proyectos" data-animacion>
+        <h2>Proyectos</h2>
+        <ul class="proyectos-lista">
+            <li class="project-tag">Proyecto 1</li>
+            <li class="project-tag">Proyecto 2</li>
+            <li class="project-tag">Proyecto 3</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contacto" data-animacion>
+        <h2>Contacto</h2>
+        <ul class="contacto-lista">
+            <li>
+                <span class="contacto-icon">✉</span>
+                <a href="mailto:gomezlermasebastian8@gmail.com">gomezlermasebastian8@gmail.com</a>
+            </li>
+            <li>
+                <span class="contacto-icon">💼</span>
+                <a href="https://github.com/SBNGL" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+            <li>
+                <span class="contacto-icon">🔗</span>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Sebastian G &mdash; Todos los derechos reservados.</p>
+    </footer>
+    <script src="animaciones.js"></script>
+</body>
+
+</html>
